@@ -16,6 +16,27 @@ We have utilized a deep 3D face reconstruction model, [Deep3DFaceRecon](https://
 
 We will provide widely used models of GANs and diffusion models, trained on the two "cleaned" datasets, accompanied by a quantitative comparison, to facillate further research.
 
+## 3DMM Coefficients and Rendered images
+
+<p align="center"> 
+<img src="docs/data_sample_ffhq.png">
+</p>
+
+For the required 3DMM coefficients and rendered images of each image in the CelebA-HQ and FFHQ datasets, please refer to the following resources. You can download the corresponding images from the original sources of CelebA-HQ and FFHQ datasets.
+
+| Path                       | Size | Files  | Format | Description                                                     |
+|-:--------------------------|-:----|--:-----|-:-:----|-:---------------------------------------------------------------|
+| CelebA-HQ                  |      |        |        | Main folder                                                     |
+| &boxvr;&nbsp; [coeff]()    | MB   | 29,437 | MAT    | 3DMM coefficients of each image in CelebA-HQ.                   |
+| &boxvr;&nbsp; [rendered]() | GB   | 29,437 | PNG    | rendered image of each image in celeba-hq of size 256&times;256 |
+| FFHQ                       |      |        |        | Main folder                                                     |
+| &boxvr;&nbsp; [coeff]()    | MB   | 69,100 | MAT    | 3DMM coefficients of each image in FFHQ                         |
+| &boxvr;&nbsp; [rendered]() | GB   | 69,100 | PNG    | rendered image of each image in ffhq of size 256&times;256      |
+
+The parameters and rendered images are obtained using Deep3DFaceRecon. Data samples are provided [here](https://github.com/weihaox/cleaned-celebahq-ffhq/docs/data_sample). For more details about the data format, please refer to their [repository](https://github.com/sicxu/Deep3DFaceRecon_pytorch). The mesh files are too large to be uploaded. 
+
+The obtained datasets can be utilized for various purposes, such as 3D-aware face image synthesis using the 3DMM parameters as inputs, or training a ControlNet with rendered images as inputs.
+
 ## Citation
 
 ```bibtex
