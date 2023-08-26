@@ -37,27 +37,16 @@ The parameters and rendered images are obtained using Deep3DFaceRecon. Data samp
 
 The obtained datasets can be utilized for various purposes, such as 3D-aware face image synthesis using the 3DMM parameters as inputs, or training a ControlNet with rendered images as inputs.
 
+Credits: [references](https://github.com/weihaox/cleaned-celebahq-ffhq/blob/main/docs/dreference.bib).
+
 ## Citation
 
-```bibtex
+If you use this processed dataset and the pretrained models for your research, please cite our paper:
 
+```bibtex
 @article{xia2023retrofitting,
   title={Retrofitting 2D Latent Diffusion for 3D-Aware Face Image Generation},
   author={Xia, Weihao and Öztireli, Cengiz and Xue, Jing-Hao},
   year={2023},
-}
-
-@inproceedings{karras2017progressive,
-  title={Progressive growing of gans for improved quality, stability, and variation},
-  author={Karras, Tero and Aila, Timo and Laine, Samuli and Lehtinen, Jaakko},
-  journal={International Conference on Learning Representations (ICLR)},
-  year={2018}
-}
-
-@inproceedings{liu2015faceattributes,
-  title = {Deep Learning Face Attributes in the Wild},
-  author = {Liu, Ziwei and Luo, Ping and Wang, Xiaogang and Tang, Xiaoou},
-  booktitle = {Proceedings of International Conference on Computer Vision (ICCV)},
-  year = {2015} 
 }
 ```
