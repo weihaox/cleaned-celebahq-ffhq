@@ -44,9 +44,10 @@ Credits: [references](https://github.com/weihaox/cleaned-celebahq-ffhq/blob/main
 If you use this processed dataset and the pretrained models for your research, please cite our paper:
 
 ```bibtex
-@article{xia2023retrofitting,
-  title={Retrofitting 2D Latent Diffusion for 3D-Aware Face Image Generation},
+@inproceedings{xia2023retrofitting,
+  title={Retrofitting 2D Latent Diffusion for Controllable Face Image Generation},
   author={Xia, Weihao and Öztireli, Cengiz and Xue, Jing-Hao},
+  booktitle={NeurIPS Workshop},
   year={2023},
 }
 ```
